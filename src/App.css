@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+nav {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  line-height: 25px;
+  display: flex;
+  justify-content: space-around;
+  bottom: -10px;
+}
+
+.pointer{
+  cursor:pointer;
+  border: none;
+}
+
+.buttonActive{
+  background: #c72727;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin: 0 0 1rem 5rem;
+  padding: 10px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.buttonDisabled{
+  background: #b4adad;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin: 0 0 1rem 5rem;
+  padding: 10px;
+  width: 200px;
+  cursor:not-allowed;
+}
